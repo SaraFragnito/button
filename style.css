@@ -1,0 +1,68 @@
+.bottonefigo{
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid blue;
+    text-transform: uppercase;
+    color: blue;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: 0.4s;
+    position: relative;
+    margin: 40px 40px;
+
+
+}
+
+.bottonefigo:hover{
+    border: none;
+    transform: scale(1.4)
+}
+
+.links{
+    position: absolute; 
+    height: 50px;
+    width: 200px;
+    background-color:white;
+        left: -1px;
+    top: -1px;
+    opacity: 0;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.bottonefigo:hover .links {
+    opacity: 1;
+
+}
+
+a.bottonefigo-box{
+    width: 40px;
+    height: 40px;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+
+
+}
+
+a.bottonefigo-box:hover{
+    transform: rotateZ(45deg);
+}
+
+a.bottonefigo-box i{
+    transition: 1s;
+
+}
+
+a.bottonefigo-box:hover i{
+    transform: rotateZ(-45deg);
+}
